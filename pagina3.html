@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .imagen {
+            padding: 100px;
+        }
+        body{
+          background-color: rgba(18, 128, 60, 0.486);
+        }
+    </style>
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Selva</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="img/peru.png" class="" style = "width: 100px; height: 50px;" alt="">
+          <a class="navbar-brand" href="index.html">Perú</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina1.html">Costa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina2.html">Sierra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina3.html">Selva</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.gob.pe/">Gobierno del Perú</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <section class="container">
+        <h1>SELVA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quaerat laudantium, iste tempora eveniet qui, asperiores vero placeat repellendus at soluta optio, adipisci pariatur fugit iusto ipsum consequuntur fugiat? Repellat.lorem</p>
+        <img src="img/selva1.jpg" class="imagen"style="width: 100% ;height: 100%">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eveniet, deleniti veritatis nihil ut consequuntur atque dolor ducimus ipsum modi amet inventore eum possimus aliquam a nisi est, rem dolores?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab suscipit aliquid quidem nostrum obcaecati numquam corporis quod quia consectetur accusantium! Maiores tempore sint tempora totam cumque delectus non sequi earum.</p>
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+        <form class = "formulario" action="#" target="" method="get" name="formDatosPersonales">
+
+            <label for="nombre">Nombre :</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+          
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos"/>
+          
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" placeholder="Email" required />
+          
+            <label for="asunto">Asunto: </label>
+            <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
+          
+            <label for="mensaje">Mensaje: </label>
+            <textarea name="mensaje" for="mensaje" placeholder="Escribe brevemente acerca de lo que te gusta de Perú" maxlength="300"></textarea>
+            
+            <input type="submit" name="enviar" value="enviar datos"/>
+        </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
